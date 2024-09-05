@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: auto;
+}
+
+#prenav {
+    width: 100%;
+    height: auto;
+    padding-left: 2em;
+}
+
+#metalogo {
+    width: 3.5em;
+    height: 2em;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #2e16448a;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em;
+    padding-top: 4em;
+}
+
+#rentlogo {
+    width: 7%;
+    margin-top: -2em;
+}
+
+#Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin-right: -15em;
+    margin-left: 0em;
+}
+
+#Menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+    margin-right: 4em;
+    margin-top: -1em;
+    margin-left: -7em;
+}
+
+#lastnavdiv {
+    width: auto;
+    margin-top: -1em;
+}
+
+#Menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Menu button {
+    background-color: #321c85;
+    font-size: 1em;
+    height: 3em;
+    border: #321c85;
+    align-items: flex-start;
+    border-radius: 30px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    margin-top: -2em;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+#Menu button:hover {
+    opacity: 0.6;
+}
+
+#togglebtn {
+    display: none;
+}
+
+#fontawesome {
+    width: 12%;
+    color: #321c85;
+    background-color: #103948;
+    margin-top: -1.5em;
+    border: none;
+    font-size: 1.2em;
+    transition: all;
+    transition-duration: 0.4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fontawesome:hover {
+    opacity: 0.6;
+}
+
+#downbtn {
+    color: rgb(2, 248, 76);
+    margin-left: 0.4em;
+    font-size: 0.8em;
+    display: inline;
+}
+
+#globebtn {
+    margin-left: 0.2em;
+    font-size: 1em;
+    display: inline;
+}
+
+#success-stories {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 8em;
+    margin-left: 4em;
+    margin-bottom: 4em;
+}
+
+#success-stories h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+#success-stories h2 {
+    font-size: 4em;
+    width: 20em;
+    text-align: center;
+    margin-top: -2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -1em;
+}
+
+.fa-solid {
+    font-size: 1.2em;
+}
+
+#carousal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#carousal div {
+    background-color: #e9fcdc;
+    margin-left: 3em;
+    padding: 3em;
+    border-radius: 25px;
+    margin-bottom: 3em;
+}
+
+#carousal img {
+    border-radius: 25px;
+    margin-top: 2em;
+    width: 40em;
+    height: 25em;
+}
+
+#carousal h1 {
+    font-size: 3em;
+}
+
+#learnmore {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#learnmore div {
+    background-color: #301303;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+#learnmore h1 {
+    text-align: center;
+    color: #321c85;
+    font-size: 3.5em;
+}
+
+#learnmore p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#learnmore button {
+    background-color: #321c85;
+    align-self: center;
+    font-size: 1.2em;
+    height: 3.5em;
+    border: #321c85;
+    align-items: flex-start;
+    border-radius: 40px;
+    width: 16%;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+#learnmore button:hover {
+    opacity: 0.6;
+}
+
+main {
+    margin-bottom: 20em;
+}
+
+footer {
+    width: 100%;
+    height: 25vh;
+    background-color: #bbb2da;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#footerlogo {
+    width: 10%;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+    margin-top: 4em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+footer span {
+    margin-top: 0.em;
+}
